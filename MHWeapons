@@ -6,61 +6,62 @@ if(Weapon_Class == 'Cutting'):
             print('Weapon: Great Sword')
             print('A weapon designed with Heavy, Powerful Swings with three charges.')
             print('Important Skills')
-            print('Focus, Partbreaker,')
+            print('Focus, Partbreaker, Razor Sharp')
             print('Introduced in Monster Hunter')
   if(Weapon == 'Long Sword' or Weapon.lower == 'LS'):
             print('Weapon: Long Sword')
             print('A weapon designed with Heavy, Powerful Swings with three charges.')
             print('Important Skills')
-            print('Focus, Partbreaker,')
-            print('Introduced in Monster Hunter
+            print('Focus, Partbreaker, Razor Sharp')
+            print('Introduced in Monster Hunter Freedom 2')
   if(Weapon == 'Sword and Shield' or Weapon.lower == 'SnS'):
             print('Weapon: Sword and Shield')
             print('A weapon designed with Heavy, Powerful Swings with three charges.')
             print('Important Skills')
-            print('Focus, Partbreaker,')
+            print('Focus, Partbreaker, Razor Sharp')
             print('Introduced in Monster Hunter')
-  if(Weapon == 'Dual Blades or Weapon.lower == 'DB'):
+  if(Weapon == 'Dual Blades'):
             print('Weapon: Dual Blades')
             print('Dual Blades are a pair of blades cabaple of quick and fluid attacks.')
-            print('Important Skills')
-            print('Focus, Partbreaker,')
-            print('Introduced in Monster Hunter
+            print('Important Skills') 
+            print('Focus, Power Prolonger, Partbreaker, Razor Sharp')
+            print('Introduced in Monster Hunter')
   if(Weapon == 'Charge Blade' or Weapon.lower == 'CB'):
             print('Weapon: Charge Blade')
             print('A weapon designed with Heavy, Powerful Swings with three charges.')
             print('Important Skills')
-            print('Focus, Partbreaker,')
-            print('Introduced in Monster Hunter
+            print('Focus, Artillery, Razor Sharp')
+            print('Introduced in Monster Hunter 4')
   if(Weapon == 'Switch Axe'):
             print('Weapon: Switch Axe')
             print('A weapon designed with Heavy, Powerful Swings with three charges.')
             print('Important Skills')
-            print('Focus, Partbreaker,')
-            print('Introduced in Monster Hunter
+            print('Focus, Partbreaker, Razor Sharp')
+            print('Introduced in Monster Hunter Tri')
   if(Weapon == 'Lance'):
             print('Weapon: Lance')
             print('A weapon designed with Heavy, Powerful Swings with three charges.')
             print('Important Skills')
-            print('Focus, Partbreaker,')
+            print('Guard, Guard up, Offensive Guard, Razor Sharp')
             print('Introduced in Monster Hunter')
   if(Weapon == 'Gunlance' or Weapon.lower == 'GL'):
             print('Weapon: Gunlance')
             print('A weapon designed with Heavy, Powerful Swings with three charges.')
             print('Important Skills')
-            print('Focus, Partbreaker,')
+            print('Guard, Guard up, Offensive Guard, Artillery, Razor Sharp')
             print('Introduced in Monster Hunter 2')
   if(Weapon == 'Insect Glaive' or Weapon.lower == 'IG'):
             print('Weapon: Insect Glaive')
-            print('The Insect Glaive is a double-ended rod is capable of quick and fluid attacks. 
-            print('It also allows the hunter to pole vault at any time, allowing Jumping Attacks to be performed at will.' 
-            print('Coming with the rod is a giant insect called the Kinsect, which can be sent out to gather extracts 
-            print('which grant you powers depending on what extract you get.')
-            print('Red Extract: ')
-            print('White Extract: ')
-            print('Orange Extract: ')
+            print('The Insect Glaive is a double-ended rod is capable of quick and fluid attacks.')
+            print('It also allows the hunter to pole vault at any time, allowing Jumping Attacks to be performed at will.')
+            print('Coming with the rod is a giant insect called the Kinsect, which can be sent out to attack monsters')
+            print('and gather extracts from said monster.')
+            print('Red Extract: Increases attack')
+            print('White Extract: Increases mobility')
+            print('Orange Extract: Increases defense')
+            print('Triple is achieved by collecting all three extracts.')
             print('Important Skills')
-            print('Focus, Partbreaker,')
+            print('Focus, Partbreaker, Razor Sharp')
             print('Introduced in Monster Hunter 4')
 if(Weapon_Class == 'Blunt'):
   Weapon=input('Hammer, Hunting Horn')
@@ -68,31 +69,31 @@ if(Weapon_Class == 'Blunt'):
             print('Weapon: Hammer')
             print('A weapon designed with Heavy, Powerful Swings with three charges and the ability to Stun Targets.')
             print('Important Skills')
-            print('Focus, Partbreaker, Slugger')
-            print('Introduced in Monster Hunter
+            print('Focus, Partbreaker, Slugger, Razor Sharp')
+            print('Introduced in Monster Hunter')
   if(Weapon == 'Hunting Horn' or Weapon.lower == 'HH'):
             print('Weapon: Hunting Horn')
             print('A weapon designed with Heavy, Powerful Swings with three charges and the ability to Stun Targets.')
             print('Important Skills')
-            print('Partbreaker, Slugger')
-            print('Introduced in Monster Hunter
+            print('Partbreaker, Slugger,Razor Sharp')
+            print('Introduced in Monster Hunter Portable')
 if(Weapon_Class == 'Ammo'):
   Weapon=input('Light Bowgun, Heavy Bowgun, Bow')
   if(Weapon == 'Light Bowgun' or Weapon.lower == 'LBG' or Weapon.lower == 'LB' or Weapon.lower == 'LG'):
             print('Weapon: Light Bowgun')
             print('A weapon designed with Heavy, Powerful Swings with three charges and the ability to Stun Targets.')
             print('Important Skills')
-            print('Focus, Partbreaker, Slugger')
-            print('Introduced in Monster Hunter
+            print('Focus, Partbreaker, Slugger, Spare Shot')
+            print('Introduced in Monster Hunter')
   if(Weapon == 'Heavy Bowgun' or Weapon.lower == 'HBG' or Weapon.lower == 'HB' or Weapon.lower == 'HG'):
             print('Weapon: Heavy Bowgun')
             print('A weapon designed with Heavy, Powerful Swings with three charges and the ability to Stun Targets.')
             print('Important Skills')
-            print('Focus, Partbreaker, Slugger')
-            print('Introduced in Monster Hunter
-   if(Weapon == 'Bow'):
+            print('Focus, Partbreaker, Slugger, Spare Shot')
+            print('Introduced in Monster Hunter')
+  if(Weapon == 'Bow'):
             print('Weapon: Bow')
             print('A weapon designed with Heavy, Powerful Swings with three charges and the ability to Stun Targets.')
             print('Important Skills')
-            print('Focus, Partbreaker, Slugger')
-            print('Introduced in Monster Hunter
+            print('Focus, Spare Shot')
+            print('Introduced in Monster Hunter 2')
