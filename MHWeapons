@@ -2,12 +2,22 @@ print('Welcome, what weapon class are you looking for?')
 Weapon_Class=input('Cutting, Blunt, Ammo')
 if(Weapon_Class == 'Cutting'):
   Weapon=input('Great Sword, Long Sword, Sword and Shield, Dual Blade, Charge Blade, Switch Axe, Lance, Gunlance, Insect Glaive')
-  if(Weapon == 'Great Sword' or Weapon == 'Great Sword'):
+  if(Weapon == 'Great Sword' or Weapon.lower == 'GS'):
             print('Weapon: Great Sword')
             print('A weapon designed with Heavy, Powerful Swings with three charges.')
             print('Important Skills')
             print('Focus, Partbreaker,')
 if(Weapon_Class == 'Blunt'):
   Weapon=input('Hammer, Hunting Horn')
+  if(Weapon == 'Hammer'):
+            print('Weapon: Great Sword')
+            print('A weapon designed with Heavy, Powerful Swings with three charges and the ability to Stun Targets.')
+            print('Important Skills')
+            print('Focus, Partbreaker, Slugger')
+  if(Weapon == 'Great Sword' or Weapon.lower == 'HH'):
+            print('Weapon: Great Sword')
+            print('A weapon designed with Heavy, Powerful Swings with three charges and the ability to Stun Targets.')
+            print('Important Skills')
+            print('Focus, Partbreaker, Slugger')
 if(Weapon_Class == 'Ammo'):
   Weapon=input('Light Bowgun, Heavy Bowgun, Bow')
