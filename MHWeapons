@@ -1,23 +1,78 @@
 print('Welcome, what weapon class are you looking for?')
 Weapon_Class=input('Cutting, Blunt, Ammo')
 if(Weapon_Class == 'Cutting'):
-  Weapon=input('Great Sword, Long Sword, Sword and Shield, Dual Blade, Charge Blade, Switch Axe, Lance, Gunlance, Insect Glaive')
+  Weapon=input('Great Sword, Long Sword, Sword and Shield, Dual Blades, Charge Blade, Switch Axe, Lance, Gunlance, Insect Glaive')
   if(Weapon == 'Great Sword' or Weapon.lower == 'GS'):
             print('Weapon: Great Sword')
+            print('A weapon designed with Heavy, Powerful Swings with three charges.')
+            print('Important Skills')
+            print('Focus, Partbreaker,')
+  if(Weapon == 'Long Sword' or Weapon.lower == 'LS'):
+            print('Weapon: Long Sword')
+            print('A weapon designed with Heavy, Powerful Swings with three charges.')
+            print('Important Skills')
+            print('Focus, Partbreaker,')
+  if(Weapon == 'Sword and Shield' or Weapon.lower == 'SnS'):
+            print('Weapon: Sword and Shield')
+            print('A weapon designed with Heavy, Powerful Swings with three charges.')
+            print('Important Skills')
+            print('Focus, Partbreaker,')
+  if(Weapon == 'Dual Blades or Weapon.lower == 'DB'):
+            print('Weapon: Dual Blades')
+            print('A weapon designed with Heavy, Powerful Swings with three charges.')
+            print('Important Skills')
+            print('Focus, Partbreaker,')
+  if(Weapon == 'Charge Blade' or Weapon.lower == 'CB'):
+            print('Weapon: Charge Blade')
+            print('A weapon designed with Heavy, Powerful Swings with three charges.')
+            print('Important Skills')
+            print('Focus, Partbreaker,')
+  if(Weapon == 'Switch Axe'):
+            print('Weapon: Switch Axe')
+            print('A weapon designed with Heavy, Powerful Swings with three charges.')
+            print('Important Skills')
+            print('Focus, Partbreaker,')
+  if(Weapon == 'Lance'):
+            print('Weapon: Lance')
+            print('A weapon designed with Heavy, Powerful Swings with three charges.')
+            print('Important Skills')
+            print('Focus, Partbreaker,')
+  if(Weapon == 'Gunlance' or Weapon.lower == 'GL'):
+            print('Weapon: Gunlance')
+            print('A weapon designed with Heavy, Powerful Swings with three charges.')
+            print('Important Skills')
+            print('Focus, Partbreaker,')
+  if(Weapon == 'Insect Glaive' or Weapon.lower == 'IG'):
+            print('Weapon: Insect Glaive')
             print('A weapon designed with Heavy, Powerful Swings with three charges.')
             print('Important Skills')
             print('Focus, Partbreaker,')
 if(Weapon_Class == 'Blunt'):
   Weapon=input('Hammer, Hunting Horn')
   if(Weapon == 'Hammer'):
-            print('Weapon: Great Sword')
+            print('Weapon: Hammer')
             print('A weapon designed with Heavy, Powerful Swings with three charges and the ability to Stun Targets.')
             print('Important Skills')
             print('Focus, Partbreaker, Slugger')
-  if(Weapon == 'Great Sword' or Weapon.lower == 'HH'):
-            print('Weapon: Great Sword')
+  if(Weapon == 'Hunting Horn' or Weapon.lower == 'HH'):
+            print('Weapon: Hunting Horn')
             print('A weapon designed with Heavy, Powerful Swings with three charges and the ability to Stun Targets.')
             print('Important Skills')
-            print('Focus, Partbreaker, Slugger')
+            print('Partbreaker, Slugger')
 if(Weapon_Class == 'Ammo'):
   Weapon=input('Light Bowgun, Heavy Bowgun, Bow')
+  if(Weapon == 'Light Bowgun' or Weapon.lower == 'LBG' or Weapon.lower == 'LB' or Weapon.lower == 'LG'):
+            print('Weapon: Light Bowgun')
+            print('A weapon designed with Heavy, Powerful Swings with three charges and the ability to Stun Targets.')
+            print('Important Skills')
+            print('Focus, Partbreaker, Slugger')
+  if(Weapon == 'Heavy Bowgun' or Weapon.lower == 'HBG' or Weapon.lower == 'HB' or Weapon.lower == 'HG'):
+            print('Weapon: Heavy Bowgun')
+            print('A weapon designed with Heavy, Powerful Swings with three charges and the ability to Stun Targets.')
+            print('Important Skills')
+            print('Focus, Partbreaker, Slugger')
+   if(Weapon == 'Bow'):
+            print('Weapon: Bow')
+            print('A weapon designed with Heavy, Powerful Swings with three charges and the ability to Stun Targets.')
+            print('Important Skills')
+            print('Focus, Partbreaker, Slugger')
