@@ -5,6 +5,8 @@ if(Weapon_Class == 'Cutting'):
   if(Weapon == 'Great Sword' or Weapon.lower == 'GS'):
             print('Weapon: Great Sword')
             print('A weapon designed with Heavy, Powerful Swings with three charges.')
+            print('The Geat Sword is designed with heavy damage in mind as well.')
+            print('The Great Sword is cabable of protecting the user due the large blade being cabable to blocking attacks')
             print('Important Skills')
             print('Focus, Partbreaker, Razor Sharp')
             print('Introduced in Monster Hunter')
