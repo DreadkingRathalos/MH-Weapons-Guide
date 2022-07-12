@@ -40,7 +40,8 @@ if(Weapon_Class == 'Cutting'):
             print('Introduced in Monster Hunter Tri')
   if(Weapon == 'Lance'):
             print('Weapon: Lance')
-            print('A weapon designed with Heavy, Powerful Swings with three charges.')
+            print('The Lance is a large lance with a Big shield made for blocking attacks')
+            print('')
             print('Important Skills')
             print('Guard, Guard up, Offensive Guard, Razor Sharp')
             print('Introduced in Monster Hunter')
